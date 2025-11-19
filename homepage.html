@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVENTORY MONITORING AND REQUEST MANAGEMENT SYSTEM</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="images/image.png" alt="ACC Logo">
+            <span>Aklan Catholic College</span>
+            
+        </div>
+       
+        <div class="right">
+            <a href="about.html">About</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1 class="imrs">I M R S</h1>
+        <p class="subtitle">Inventory Monitoring and Request Management <br> System of Aklan Catholic College</p>
+        <div class="btn-group">
+            <button class="btn" onclick="navigateTo('login.php')">Login</button>
+            <button class="btn" onclick="navigateTo('registerform.html')">Register</button>
+        </div>
+        
+    </div>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
